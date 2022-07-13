@@ -1,0 +1,212 @@
+html{
+    font-size: 62.5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix{
+    content: "";
+    clear: both;
+}
+
+header{
+    background-image: url(./img/picOne.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+ul li{
+    list-style: none;
+    float: left;
+    font-size: 1.6rem;
+}
+li a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 6rem;
+}
+nav{
+    background-color: #fff;
+    padding: 4rem 6rem;
+    width: 100%;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+nav>a{
+    float: right;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 6.2rem;
+    width: 30%;
+    
+}
+.hero{
+    padding: 12rem 8rem;
+    margin: 4rem 0;
+}
+.hero>p{
+    font-size: 3.2rem;
+    margin: 2rem 0;
+    width: 50%;
+}
+
+.hero>a{
+    background-color: #000;
+    color: #fff;
+    font-size: 1.6rem;
+    display: inline-block;
+    padding: 1.2rem 2.4rem;
+    text-decoration: none;
+    margin: 1.6rem 0;
+}
+.sub-hero{
+    width: 25%;
+    background-color: #000;
+    color: #fff;
+    padding: 6rem 2rem;
+    margin: 2rem 0;
+
+}
+.sub-hero h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.sub-hero p span{
+    font-size: 4.2rem;
+}
+.sub-hero p{
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+}
+
+.sub-hero a{
+    font-size: 2rem;
+    padding: 1.2rem 2.4rem;
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+    margin: 3rem 0;
+    text-decoration: none;
+
+}
+.features{
+    padding: 6rem 8rem;
+}
+
+.features>*{
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    border: #fff solid 3rem;
+}
+
+.features>* h3{
+    font-size: 2.4rem;
+    margin: 2rem 0;
+}
+.features>* p{
+    font-size: 1.6rem;
+    text-align: justify;
+}
+.momentum{
+    padding: 8rem 0;
+}
+
+.momentum img{
+    width: 50%;
+    float: right;
+}
+
+.momentum>section{
+    width: 50%;
+    float: left;
+    padding: 8rem;
+}
+
+.momentum h2{
+    font-size: 3.2rem;
+
+}
+.momentum p{
+    font-size: 1.6rem;
+    text-align: justify;
+    margin: 2rem 0;
+}
+
+.momentum>section a,
+.offer a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    display: inline-block;
+    padding: 1.2rem 2rem;
+    font-size: 1.6rem;
+}
+
+.crew{
+    width: 80%;
+    margin: 6rem auto;
+}
+.crew>*{
+    float: left;
+    width: 33.3333%;
+    border: #fff 4rem solid;
+    padding: 4rem 0;
+}
+.crew img{
+    width: 100%;
+}
+.crew>* h4{
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+.crew>* span{
+    font-size: 1.8rem;
+    display: block;
+    text-align: center;
+}
+.crew>section>section{
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.offer{
+    width: 80%;
+    margin: 6rem auto;
+    padding: 30rem 0;
+    background-image: url(./img/picFive.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.offer span{
+    font-size: 3.2rem;
+}
+.offer h4{
+    font-size: 2.8rem;
+    margin: 2rem 0;
+    width: 30%;
+}
+
+.lookbook>*{
+    width: 33%;
+    float: left;
+}
+.lookbook img{
+    width: 100%;
+    border: 3rem solid #fff;
+}
+
